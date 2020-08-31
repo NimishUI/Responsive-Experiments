@@ -64,19 +64,30 @@ footer {
   }
 
   #column-1 {
+    width: 50%;
     background-color: #39A0ED;
   }
 
   #column-2 {
+    width: 50%;
     background-color: #36F1CD;
   }
 
   #column-3 {
+    width: 50%;
     background-color: #13C4A3;
   }
 
+  .clear
+  {
+    clear: none;
+  }
+
   footer {
+    width: 50%;
     background-color: #FAC8CD;
+    height: 320px;
+    float: right;
   }
   
 }
@@ -89,18 +100,25 @@ footer {
   }
 
   #column-1 {
+    width: 32%;
+    margin: 1% 1% 1% 0;
     background-color: #D4AFB9;
   }
 
   #column-2 {
+    width: 32%;
+    margin: 1%;
     background-color: #F5EE9E;
   }
 
   #column-3 {
+    width: 32%;
+    margin: 1% 0 1% 1%;
     background-color: #7FDEFF;
   }
 
   footer {
+    width: 100%;
     background-color: #7798AB;
   }
    
