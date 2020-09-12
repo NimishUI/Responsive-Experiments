@@ -6,21 +6,37 @@ html {
 body {
   margin: 0;
   height: 100%;
+  background-color: #000e13;
 }
 
 .wrapper {
-  height: inherit;
+  height: auto;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  margin-top: 10px;
+  border-top: 1px #fefefe solid;
+  padding: 12px;
+  border-bottom: 1px #fefefe solid;
+  margin: 10px;
 }
 
 div {
-  background-color: red;
   width: 30%;
-  height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 28px;
+  padding: 20px;
+  color: #fefefe;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.div-1, .div-2
+{
+  border-right: 1px solid #fefefe;
+}
+
+span
+{
+  font-style: italic;
 }
