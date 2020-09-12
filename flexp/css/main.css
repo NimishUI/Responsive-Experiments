@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+}
+
+#cont {
+    font-size: 32px;
+    margin: 0 40px;
+}
+ 
+span
+{
+	font-family: 'Nunito', sans-serif;
+	color: #F45B69
+}
+
+p
+{
+	font-family: 'Lora', serif;
+	color: #020402;
+}
