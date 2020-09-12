@@ -1,0 +1,26 @@
+html {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+div {
+  background-color: red;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
