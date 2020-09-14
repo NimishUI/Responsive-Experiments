@@ -1,0 +1,87 @@
+.flex-container {
+  display: flex;
+  height: inherit;
+  align-items: center;
+  flex-direction: column;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  height: inherit;
+}
+
+header {
+  height: 8%;
+  width: 80%;
+  background-color: deepskyblue;
+  color: black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  height: 36%;
+  color: black;
+  font-size: 42px;
+  width: 80%;
+  text-align: center;
+  background-color: darkseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+.grid {
+  display: flex;
+  width: 80%;
+  height: 45%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
+#div-1 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: aquamarine;
+}
+
+#div-2 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: aqua;
+}
+
+#div-3 {
+  width: 33%;
+  display: flex;
+  \#div-2\ \{\ width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: beige;
+}
+
+footer {
+  width: 80%;
+  height: 9%;
+  background-color: coral;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
