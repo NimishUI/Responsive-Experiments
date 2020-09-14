@@ -7,6 +7,8 @@ body {
   margin: 0;
   height: 100%;
   background-color: #000e13;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper {
@@ -25,7 +27,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 28px;
+  font-size: 2em;
   padding: 20px;
   color: #fefefe;
   font-family: 'Montserrat', sans-serif;
@@ -39,4 +41,58 @@ div {
 span
 {
   font-style: italic;
+  font-weight: bold;
 }
+
+header {
+  padding-left: 1%;
+  color: #fefefe;
+  font-size: 3em;
+  width: 45%;
+  margin-left: 2%;
+  height: 20%;
+}
+main {
+  font-size: 2em;
+  color: #fefefe;
+  padding-left: 1%;
+  margin: 0 2%;
+  height: 16%;
+}
+
+footer {
+    margin: 1em 3em;
+    width: 95%;
+}
+
+i {
+    margin: 0px 1.5em;
+}
+
+@media screen and (max-width: 1400px)
+{
+	header{
+		font-size: 2.5em;
+		height: auto;
+		padding-left: 0.8%			
+    } 
+	
+	main{
+		font-size: 1.5em;
+		height: auto;
+	}
+
+.wrapper{
+		padding: 9px;
+	}
+	
+	div{
+		font-size: 1.5em;
+	}
+
+	footer{
+		margin: 1em 2em;
+	}
+	
+}
+
